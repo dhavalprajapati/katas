@@ -3,7 +3,7 @@ package com.dhaval.katas.kata;
 
 public class Palindrom {
 
-	public Boolean isPalindrom(String palindromString) {
+	public boolean isPalindrom(String palindromString) {
 		if(palindromString.trim().length() == 0)
 			return false;
 		

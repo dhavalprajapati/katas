@@ -13,12 +13,12 @@ public class PalindromTest{
 	 public void setup(){
 		 palindrom = new Palindrom();
 	 }
-     
+
 	 @Test
 	 public void isPlaindromWithEmptyString() {
 		 assertTrue(!palindrom.isPalindrom(" "));
 	 }
-	 
+
 	 @Test
 	 public void isPlaindromWithBOB() {
 		 assertTrue(!palindrom.isPalindrom("BOB"));
